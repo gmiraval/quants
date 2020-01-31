@@ -46,7 +46,14 @@ output:
 
        $ conda deactivate
 
-### activate it & add python libs
-  $ conda activate quants
-  $ pip install yfinance
-  $ pip install pyfolio
+### activate it, add progs & python libs
+    $ conda activate quants
+
+    $ conda install spyder
+
+    $ pip install yfinance
+    $ pip install pyfolio
+
+### run spyder inside the env
+
+    $ spyder
